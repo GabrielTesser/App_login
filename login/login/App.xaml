@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="login.App">
+    <Application.Resources>
+        <Style x:Key="Degrade" TargetType="{x:Type Border}">
+            <Setter Property="Background">
+                <LinearGradientBrush>
+                    <GradientStop Color="Blue" Offset="0"/>
+                    <GradientStop Color="red" Offset="1"/>
+                </LinearGradientBrush>
+            </Setter>
+            <Setter Property="BorderBrush" Value="LightGray" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="CornerRadius" Value="5" />
+            <Setter Property="SnapsToDevicePixels" Value="True" />
+        </Style>
+    </Application.Resources>
+</Application>
